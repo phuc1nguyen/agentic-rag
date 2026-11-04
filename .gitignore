@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Local data and eval outputs
+data/raw/
+eval/runs/
